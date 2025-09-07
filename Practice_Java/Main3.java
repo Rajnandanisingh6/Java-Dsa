@@ -1,6 +1,7 @@
 package Practice_Java;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main3 {
     public static void main(String[] args) {
@@ -75,21 +76,141 @@ public class Main3 {
     // int numb=1;
     // numb =numb +1;
    // numb++; uniary operator
-//    System.out.println(++numb);//2
-//    System.out.println(numb);//2
+    //    System.out.println(++numb);//2
+     //    System.out.println(numb);//2
 
    //Math Class
    //5,6
-   System.out.println(Math.max(5,6));
-   System.out.println(Math.min(5,6));
-   //random 0.0 se 1.0 tak 
-   System.out.println(Math.random());
-   System.out.println((int)(Math.random()*100));
+  //  System.out.println(Math.max(5,6));
+  //  System.out.println(Math.min(5,6));
+  //  //random 0.0 se 1.0 tak 
+  //  System.out.println(Math.random());
+  //  System.out.println((int)(Math.random()*100));
 
 
+   //Input in Java
+  //  Scanner sc=new Scanner(System.in);
+  //  System.out.println("Input Youur Name : ");
+  //  int age =sc.nextInt();
+  //  System.out.println(age);
+  // String name =sc.next();
+  // System.out.println(name);
+
+  //--------------------------------
+  //Comparison Operators
+  //a == b
+  //a !=b
+  //a<b
+  //a>b
+  //a>=b
 
 
+  //Conditional Statements
+  // boolean isSunUp = true;
+  // if(isSunUp == true)
+  //      System.out.println("day");
+  // else
+  //     System.out.println("night");
+  
 
-    }
+  // int age =38;
+  // if(age>18){
+  //   System.out.println("Can vote");
+  // }
+  // else{
+  //   System.out.println("can't vote");
+  // }
+     
+  // logical Operators
+
+  //&& -- and
+  // int a=30;
+  // int b=40;
+// if(a<50 && b<50)
+//      System.out.println("both less than 50");
+     
+
+     // || -- or
+    //  if(a<50 || b<50)
+    //  System.out.println("atleast one less than 50");
+    // }  
     
+
+    // boolean isAdult =false;
+    // if(!isAdult)
+    //   System.out.println("is adult");
+    // else 
+    //     System.out.println("not adult");
+
+
+    //-----------------------------------
+    // Scanner sc = new Scanner(System.in);
+    // //pen =10; notebook=40
+
+    // int cash =sc.nextInt();
+    // if(cash<10){
+    //   System.out.println("cannot buy anything");
+    //   System.out.println("get more cash");
+    // }
+    // else if(cash > 10 && cash < 50){
+    //   System.out.println("can get 1 thing");
+    // }
+    // else{
+    //   System.out.println("can get both");
+    // }
+
+
+    //Switch Statements
+    // int day =1;
+    // switch(day){
+    //   case 1 : 
+    //          System.out.println("monday");
+    //          break;
+    //   case 2: 
+    //          System.out.println("tuesday");
+    //   case 3: 
+    //          System.out.println("wednesday");
+    //   case 4: 
+    //          System.out.println("friday");  
+    //   case 5: 
+    //          System.out.println("saturday"); 
+    //   case 6: 
+    //          System.out.println("sunday"); 
+    //    default:
+    //           System.out.println("we -sun");                         
+    // }
+
+
+    //-------------------------------
+
+    //loops
+
+    //for loop
+
+    // for(int i=1; i<=100;i++){
+    //   System.out.println(i);
+    // }
+
+    //while loop
+    // int i =100;
+    // while(i >= 1){
+    //   System.out.println(i);
+    //   i =i-1;
+
+    // }
+
+    //do while
+    // int k=100;
+    // do{
+    //   System.out.println(k);
+    //   k=k-1;
+    // }while(k >=1);
+
+
+    //----------------------------
+    Scanner sc =new Scanner(System.in);
+    
+
+
+}
 }
