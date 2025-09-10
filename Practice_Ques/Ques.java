@@ -17,6 +17,7 @@
 
 //-------------------------------------------
 import java.util.Scanner;
+
 public class Ques{
     // public static void main(String[] args) {
     //     //with Scanner
@@ -40,4 +41,19 @@ public class Ques{
 
     //------------------------------------
     
+    //Swap two numbers without third variable
+    
+   public static void main(String[] args) {
+        int a = 10, b = 20;
+
+        System.out.println("Before Swap: a = " + a + ", b = " + b);
+
+        a = a + b;  // a = 30
+        b = a - b;  // b = 10
+        a = a - b;  // a = 20
+
+        System.out.println("After Swap: a = " + a + ", b = " + b);
+
+
+}
 }
